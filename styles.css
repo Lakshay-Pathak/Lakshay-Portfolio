@@ -60,7 +60,7 @@ hr {
     background-color: var(--primary);
     padding: 1rem 0rem;
     color: white;
-    border-bottom-left-radius: 1rem;
+    
 }
 
 .navigation .brand {
