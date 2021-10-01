@@ -58,7 +58,7 @@ hr {
 /** nav **/
 .navigation {
     background-color: var(--primary);
-    padding: 0rem 0rem;
+    padding: 1rem 0rem;
     color: white;
     
 }
