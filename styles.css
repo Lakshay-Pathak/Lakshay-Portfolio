@@ -4,7 +4,7 @@
 :root {
     --primary: #0f0f0f;
     --red: #ef233c;
-    --dark-gray:#6B7280;
+    --light-gray:#e7ebf3;
 }
 
 body {
@@ -13,11 +13,15 @@ body {
 }
 
 hr {
-    margin: 2rem 0;;
+    margin: 2rem 0;
 }
 
 .text-sm {
     font-size: 0.8rem;
+}
+p{
+    text-indent: 2rem;
+    line-height: 1rem;
 }
 
 /** containers **/
@@ -111,7 +115,7 @@ hr {
 }
 
 .ow {
-    background-color: var(--gray);
+    background-color: var(--light-gray);
 }
 
 
