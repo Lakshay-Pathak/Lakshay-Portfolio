@@ -42,9 +42,10 @@ p{
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    text-decoration: none;
+   
     color: white !important;
   }
+  
 .primary-link {
     text-decoration: none;
     color: white;
@@ -93,9 +94,7 @@ p{
     color: white
 }
 
-.navigation .active {
-    font-weight: bold;
-}
+
 
 /** header **/
 
