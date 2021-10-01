@@ -38,7 +38,13 @@ p{
 }
 
 /** links **/
-
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: white !important;
+  }
 .primary-link {
     text-decoration: none;
     color: white;
@@ -124,7 +130,10 @@ p{
 .unordered {
     list-style: none;
 }
-
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+  }
 .list-inline li {
     display: inline;
     padding: 0rem 0.5rem;
@@ -148,3 +157,24 @@ p{
 .footer ul {
     padding-inline-start: 0px;
 }
+/** projects **/
+.showcase-list {
+    /* padding: 2rem; */
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 3rem auto;
+  }
+  .showcase-list h1 {
+    margin: 0.5rem;
+  }
+  
+  .showcase-list p {
+    padding-bottom: 1rem;
+  }
+  
+  /** blogs **/
+  
+  .showcase-blog {
+    padding-bottom: 6rem;
+  }
